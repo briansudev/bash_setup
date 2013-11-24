@@ -28,6 +28,7 @@ git clone git@github.com:briansudev/setup_dotfiles.git
 cd setup_dotfiles
 mv .bash_profile ~/.bash_profile
 mv .vimrc ~/.vimrc
+mv .bashrc ~/.bashrc
 sudo apt-get install -y zip
 unzip vim_files.zip
 \rm -rf ~/.vim
