@@ -14,7 +14,7 @@ sudo apt-get install nodejs
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Install jshint
-npm install -g jshint
+sudo npm install -g jshint
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
@@ -28,6 +28,7 @@ git clone git@github.com:briansudev/setup_dotfiles.git
 cd setup_dotfiles
 mv .bash_profile ~/.bash_profile
 mv .vimrc ~/.vimrc
+sudo apt-get install -y zip
 zip vim_files.zip
 mv vim_files ~/.vim
  
