@@ -30,5 +30,5 @@ mv .bash_profile ~/.bash_profile
 mv .vimrc ~/.vimrc
 sudo apt-get install -y zip
 unzip vim_files.zip
-mv /home/cc/cs61b/fa13/class/cs61b-ba/.vim ~/.vim
+mv home/cc/cs61b/fa13/class/cs61b-ba/.vim ~/.vim
  
