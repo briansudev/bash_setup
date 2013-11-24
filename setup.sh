@@ -32,4 +32,4 @@ sudo apt-get install -y zip
 unzip vim_files.zip
 \rm -rf ~/.vim
 mv home/cc/cs61b/fa13/class/cs61b-ba/.vim ~/.vim
- 
+echo "All files have been successfully initialized." 
