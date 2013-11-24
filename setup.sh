@@ -25,6 +25,7 @@ sudo apt-get install -y rlwrap
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 git clone git@github.com:briansudev/setup_dotfiles.git
+cd setup_dotfiles
 mv .bash_profile ~/.bash_profile
 mv .vimrc ~/.vimrc
 zip vim_files.zip
