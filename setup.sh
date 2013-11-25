@@ -10,7 +10,7 @@ sudo apt-get install -y curl
 sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
-sudo apt-get install nodejs
+sudo apt-get install -y nodejs
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Install jshint
@@ -19,6 +19,9 @@ sudo npm install -g jshint
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
+
+# Install exuberant ctags
+sudo apt-get install -y exuberant-ctags
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
