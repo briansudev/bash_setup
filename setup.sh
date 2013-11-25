@@ -13,6 +13,9 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
+# Install npm
+sudo npm install -g
+
 # Install jshint
 sudo npm install -g jshint
 
